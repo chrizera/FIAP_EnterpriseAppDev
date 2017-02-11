@@ -1,0 +1,16 @@
+package br.com.fiap.teste;
+
+public class Teste {
+
+	public static void main(String[] args) {
+
+		Animal animal = new Animal();
+		
+		//Recuperar os atributos da classe animal
+		Field[] atributos = animal.getClass().getDeclaredFields();
+		//Exibir os nomes dos atributos
+		
+		//Recuperar os métodos da classe animal
+	}
+
+}
