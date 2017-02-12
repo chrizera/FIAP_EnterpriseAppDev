@@ -1,0 +1,16 @@
+package br.com.fiap.revisao;
+
+import java.util.Calendar;
+
+import br.com.fiap.beans.Livro;
+import br.com.fiap.beans.Tablet;
+
+public class Testes {
+
+	public static void main(String[] args) {
+		Tablet tablet = new Tablet(1, "", 555, "", "", "", true);
+		Calendar dataLancamento = new Calendar().getInstance().set(2300, 03, 03);
+		Livro livro = new Livro(1, "", 333, "", "", dataLancamento);
+	}
+
+}
