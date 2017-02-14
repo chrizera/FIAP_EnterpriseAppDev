@@ -1,0 +1,21 @@
+package br.com.fiap.entity;
+
+import java.util.Calendar;
+
+import javax.persistence.Column;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Table(name = "TB_EMPRESA")
+public class Empresa {
+	@Id
+	@Column(name = "CD_EMPRESA")
+	private int codigo;
+	private String nome;
+	private String cnpj;
+	private Calendar dataFundacao;
+	private String endereco;
+	private double faturamento;
+	private byte[] logo;
+	private String telefone;
+}

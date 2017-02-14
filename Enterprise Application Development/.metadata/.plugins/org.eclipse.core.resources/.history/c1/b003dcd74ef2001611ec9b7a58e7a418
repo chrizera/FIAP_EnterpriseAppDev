@@ -1,0 +1,10 @@
+package br.com.fiap.teste;
+
+public class Teste {
+
+	public static void main(String[] args) {
+		//Criar o gerenciador de entidades
+		
+	}
+
+}
