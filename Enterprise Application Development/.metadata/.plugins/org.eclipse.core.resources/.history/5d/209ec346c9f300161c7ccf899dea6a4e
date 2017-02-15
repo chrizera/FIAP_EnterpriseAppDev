@@ -1,0 +1,18 @@
+package br.com.fiap.teste;
+
+import java.util.Calendar;
+import java.util.GregorianCalendar;
+
+import br.com.fiap.entity.Funcionario;
+import br.com.fiap.entity.Sexo;
+
+public class TesteCadastro {
+
+	public static void main(String[] args) {
+		//Cadastrar um funcionario
+		
+		//Instanciar a classe funcionario
+		Funcionario func = new Funcionario(0, "Gondo", new GregorianCalendar(2000, Calendar.JANUARY, 11), Calendar.getInstance(), 0, null, Sexo.MASCULINO)
+	}
+
+}
