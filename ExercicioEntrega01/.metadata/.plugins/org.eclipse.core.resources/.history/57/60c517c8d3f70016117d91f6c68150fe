@@ -1,0 +1,17 @@
+package br.com.fiap.entity;
+
+import java.util.Calendar;
+
+import javax.persistence.Entity;
+
+import br.com.fiap.enums.Sexo;
+
+@Entity
+public class Autor {
+	private int id;
+	private String nome;
+	private Sexo sexo;
+	private String sobrenome;
+	private Calendar dataNascimento;
+	
+}

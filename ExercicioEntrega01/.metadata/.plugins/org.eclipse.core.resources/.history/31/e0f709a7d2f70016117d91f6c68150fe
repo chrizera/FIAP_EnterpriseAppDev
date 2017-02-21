@@ -1,0 +1,14 @@
+package br.com.fiap.entity;
+
+import java.util.Calendar;
+
+import javax.persistence.Entity;
+
+@Entity
+public class Livro {
+	private int isbn;
+	private String titulo;
+	private float preco;
+	private Calendar dataLancamento;
+	private byte capa;
+}

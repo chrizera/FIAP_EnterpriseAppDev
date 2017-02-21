@@ -1,0 +1,8 @@
+package br.com.fiap.entity;
+
+public class Editora {
+	private int id;
+	private String cnpj;
+	private String nome;
+	private String endereco;
+}

@@ -1,0 +1,25 @@
+package br.com.fiap.entity;
+
+import java.util.Calendar;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.SequenceGenerator;
+
+import br.com.fiap.enums.Sexo;
+
+@Entity
+@SequenceGenerator(allocationSize = 1, name = "autor", sequenceName = "SQ_AUTOR")
+public class Autor {
+	
+	@Id
+	@GeneratedValue(generator = "autor", strategy = GenerationType.SEQUENCE)
+	private int id;
+	private String nome;
+	private Sexo sexo;
+	private String sobrenome;
+	private Calendar dataNascimento;
+	
+}

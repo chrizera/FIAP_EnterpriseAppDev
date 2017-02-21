@@ -1,0 +1,16 @@
+package br.com.fiap.testes;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
+
+public class TestPersist {
+
+	public static void main(String[] args) {
+		EntityManagerFactory fabrica = Persistence.createEntityManagerFactory("CLIENTE_ORACLE");
+		EntityManager em = fabrica.createEntityManager();
+		
+		
+	}
+
+}
