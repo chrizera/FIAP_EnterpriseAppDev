@@ -1,9 +1,0 @@
-package br.com.fiap.entity;
-
-import java.util.Calendar;
-
-public class Funcionario {
-	private int codigo;
-	private String nome;
-	private Calendar dataNascimento;
-}
