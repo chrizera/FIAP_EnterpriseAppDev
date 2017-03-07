@@ -1,0 +1,16 @@
+package br.com.fiap.entity;
+
+import javax.persistence.Table;
+
+@Table(name = "TB_JOGADOR")
+public class Jogador {
+	private int codigo;
+	
+	private String nome;
+	
+	private int numero;
+	
+	private float altura;
+	
+	private Sexo sexo;
+}
