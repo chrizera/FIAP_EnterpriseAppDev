@@ -1,0 +1,14 @@
+package br.com.fiap.entity;
+
+import java.util.Calendar;
+
+public class ProjetoAm {
+	
+	private int codigo;
+	
+	private String nome;
+	
+	private Calendar dataEntrega;
+	
+	private double nota;
+}

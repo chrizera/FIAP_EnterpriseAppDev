@@ -1,0 +1,21 @@
+package br.com.fiap.entity;
+
+import java.util.Calendar;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "TB_PROJETO_AM")
+public class ProjetoAm {
+	
+	private int codigo;
+	
+	private String nome;
+	
+	private Calendar dataEntrega;
+	
+	private float nota;
+	
+	private String observacoes;
+}
