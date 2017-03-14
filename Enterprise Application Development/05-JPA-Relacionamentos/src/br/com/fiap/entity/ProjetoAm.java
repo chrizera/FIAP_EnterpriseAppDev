@@ -2,6 +2,7 @@ package br.com.fiap.entity;
 
 import java.util.Calendar;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.ForeignKey;
@@ -17,7 +18,7 @@ import javax.persistence.TemporalType;
 
 @Entity
 @Table(name = "TB_PROJETO_AM")
-@SequenceGenerator(name = "seqProjeto", sequenceName = "SEQ_TB_PROJETO_AM", allocationSize = 1)
+@SequenceGenerator(name = "seqProjetoAm", sequenceName = "SEQ_TB_PROJETO_AM", allocationSize = 1)
 public class ProjetoAm {
 	
 	@Id
@@ -38,7 +39,8 @@ public class ProjetoAm {
 	@Column(name = "DS_OBSERVACAO")
 	private String observacoes;
 	
-	@OneToOne
+	//replica a açao da entidade no relacionamento
+	@OneToOne(cascade = CascadeType.PERSIST)
 	@JoinColumn(name = "FK_CD_GRUPO")
 	private GrupoAm grupo;
 
