@@ -1,0 +1,11 @@
+package br.com.fiap.entity;
+
+import java.util.Calendar;
+
+public class Professor {
+	private int codigo;
+	
+	private String nome;
+	
+	private Calendar dataAdmissao;
+}

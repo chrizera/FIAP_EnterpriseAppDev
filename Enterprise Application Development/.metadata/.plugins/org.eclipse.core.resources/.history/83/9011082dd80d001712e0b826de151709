@@ -1,0 +1,13 @@
+package br.com.fiap.view;
+
+import br.com.fiap.singleton.EntityManagerFactorySingleton;
+
+import javax.persistence.EntityManager;
+
+public class CadastraTudoTeste {
+
+	public static void main(String[] args) {
+		EntityManager em = EntityManagerFactorySingleton.getInstance().createEntityManager();
+	}
+
+}

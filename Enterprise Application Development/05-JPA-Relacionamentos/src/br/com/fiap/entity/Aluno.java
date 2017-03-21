@@ -1,11 +1,15 @@
 package br.com.fiap.entity;
 
+import java.util.List;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
+import javax.persistence.JoinTable;
+import javax.persistence.ManyToMany;
 import javax.persistence.ManyToOne;
 import javax.persistence.SequenceGenerator;
 
@@ -23,6 +27,18 @@ public class Aluno {
 	@JoinColumn(name = "CD_GRUPO")
 	private GrupoAm grupo;
 	
+	@ManyToMany
+	@JoinTable(name = "TB_ALUNO_PROFESSOR", joinColumns = @JoinColumn(name = "RM"), inverseJoinColumns = @JoinColumn(name = "CD_PROFESSOR"))
+	private List<Professor> professores;
+	
+	public GrupoAm getGrupo() {
+		return grupo;
+	}
+	
+	public void setGrupo(GrupoAm grupo) {
+		this.grupo = grupo;
+	}
+
 	public int getRm() {
 		return rm;
 	}

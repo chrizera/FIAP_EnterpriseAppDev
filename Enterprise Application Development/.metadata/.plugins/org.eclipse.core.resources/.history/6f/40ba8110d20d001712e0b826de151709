@@ -1,0 +1,12 @@
+package br.com.fiap.view;
+
+import br.com.fiap.entity.Aluno;
+
+public class CadastroGrupoAlunoTeste {
+
+	public static void main(String[] args) {
+		
+		Aluno aluno = new Aluno(123, "Cjd");
+	}
+
+}

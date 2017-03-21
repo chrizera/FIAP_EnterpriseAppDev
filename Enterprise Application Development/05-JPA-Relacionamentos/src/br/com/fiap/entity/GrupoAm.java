@@ -1,7 +1,9 @@
 package br.com.fiap.entity;
 
+import java.util.ArrayList;
 import java.util.List;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
@@ -28,12 +30,17 @@ public class GrupoAm {
 	
 	//Relacionamento bi direcional
 	//mappedBy -> nome do atributo que mapeia o relacionamento na classe ProjetoAm
-	@OneToOne(mappedBy = "grupo", fetch = FetchType.LAZY)
+	@OneToOne(mappedBy = "grupo", fetch = FetchType.LAZY, cascade = CascadeType.PERSIST)
 	private ProjetoAm projeto;
 
 	//Relacionamento bi direcional
-	@OneToMany(mappedBy = "grupo")
+	@OneToMany(mappedBy = "grupo", cascade = CascadeType.PERSIST)
 	private List<Aluno> alunos;
+	
+	public void addAluno(Aluno aluno) {
+		alunos.add(aluno);
+		aluno.setGrupo(this);
+	}
 	
 	public int getCodigo() {
 		return codigo;
@@ -65,10 +72,12 @@ public class GrupoAm {
 		super();
 		this.codigo = codigo;
 		this.nome = nome;
+		alunos = new ArrayList<Aluno>();
 	}
 
 	public GrupoAm() {
 		super();
+		alunos = new ArrayList<Aluno>();
 	}
 	
 }
