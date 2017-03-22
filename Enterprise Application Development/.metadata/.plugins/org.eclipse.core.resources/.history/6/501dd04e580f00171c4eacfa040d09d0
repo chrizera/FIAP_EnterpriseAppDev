@@ -1,0 +1,13 @@
+package br.com.fiap.entity;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
+public class Tecnico {
+
+	@Id
+	private int codigo;
+	
+	private String nome;
+}

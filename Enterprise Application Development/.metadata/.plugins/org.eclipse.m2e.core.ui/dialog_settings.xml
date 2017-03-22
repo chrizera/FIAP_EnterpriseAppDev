@@ -14,11 +14,13 @@
 	</section>
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="Revisao"/>
 			<item value="05-JPA-Relacionamentos"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="Revisao"/>
 			<item value="05-JPA-Relacionamentos"/>
 		</list>
 		<list key="version">

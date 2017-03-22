@@ -33,6 +33,14 @@ public class GrupoAm {
 	@OneToOne(mappedBy = "grupo", fetch = FetchType.LAZY, cascade = CascadeType.PERSIST)
 	private ProjetoAm projeto;
 
+	public List<Aluno> getAlunos() {
+		return alunos;
+	}
+
+	public void setAlunos(List<Aluno> alunos) {
+		this.alunos = alunos;
+	}
+
 	//Relacionamento bi direcional
 	@OneToMany(mappedBy = "grupo", cascade = CascadeType.PERSIST)
 	private List<Aluno> alunos;

@@ -2,6 +2,7 @@ package br.com.fiap.entity;
 
 import java.util.List;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -27,7 +28,7 @@ public class Aluno {
 	@JoinColumn(name = "CD_GRUPO")
 	private GrupoAm grupo;
 	
-	@ManyToMany
+	@ManyToMany(cascade = CascadeType.PERSIST)
 	@JoinTable(name = "TB_ALUNO_PROFESSOR", joinColumns = @JoinColumn(name = "RM"), inverseJoinColumns = @JoinColumn(name = "CD_PROFESSOR"))
 	private List<Professor> professores;
 	
@@ -53,6 +54,14 @@ public class Aluno {
 
 	public void setNome(String nome) {
 		this.nome = nome;
+	}
+
+	public List<Professor> getProfessores() {
+		return professores;
+	}
+
+	public void setProfessores(List<Professor> professores) {
+		this.professores = professores;
 	}
 
 	public Aluno(int rm, String nome) {
