@@ -34,7 +34,6 @@
 <fullyQualifiedTypeName name="br.com.fiap.entity.ProjetoAm"/>
 <fullyQualifiedTypeName name="java.util.GregorianCalendar"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="java.util.Calendar"/>
 <fullyQualifiedTypeName name="javax.persistence.Temporal"/>
 <fullyQualifiedTypeName name="javax.persistence.Entity"/>
 <fullyQualifiedTypeName name="javax.persistence.Table"/>
@@ -53,11 +52,12 @@
 <fullyQualifiedTypeName name="br.com.fiap.entity.Cliente"/>
 <fullyQualifiedTypeName name="br.com.fiap.dao.ClienteDAO"/>
 <fullyQualifiedTypeName name="br.com.fiap.dao.impl.ClienteDAOImpl"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="br.com.fiap.entity.Pacote"/>
-<fullyQualifiedTypeName name="javax.persistence.TypedQuery"/>
 <fullyQualifiedTypeName name="br.com.fiap.entity.Transporte"/>
 <fullyQualifiedTypeName name="br.com.fiap.dao.TransporteDAO"/>
 <fullyQualifiedTypeName name="org.hibernate.engine.transaction.internal.TransactionImpl"/>
 <fullyQualifiedTypeName name="br.com.fiap.dao.impl.TransporteDAOImpl"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.Calendar"/>
+<fullyQualifiedTypeName name="javax.persistence.TypedQuery"/>
 </qualifiedTypeNameHistroy>

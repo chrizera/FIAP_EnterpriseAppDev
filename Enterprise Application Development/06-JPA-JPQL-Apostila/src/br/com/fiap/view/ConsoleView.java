@@ -50,6 +50,18 @@ public class ConsoleView {
 			System.out.println(pacote.getTransporte().getEmpresa());
 		}
 		
+		clientes = clienteDAO.listarPorEstado("SP");
+		
+		for (Cliente cliente : clientes) {
+			System.out.println(cliente.getNome());
+		}
+		
+		clientes = clienteDAO.buscarPorDiaReserva(15);
+		
+		for (Cliente cliente : clientes) {
+			System.out.println(cliente.getNome());
+		}
+		
 		em.close();
 	}
 
