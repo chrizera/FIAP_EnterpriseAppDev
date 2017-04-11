@@ -4,6 +4,7 @@ import java.util.Calendar;
 import java.util.List;
 
 import javax.persistence.EntityManager;
+import javax.persistence.Query;
 import javax.persistence.TypedQuery;
 
 import br.com.fiap.dao.PacoteDAO;
@@ -39,10 +40,31 @@ public class PacoteDAOImpl extends GenericDAOImpl<Pacote,Integer> implements Pac
 
 	@Override
 	public List<Pacote> buscarPorDatas(Calendar inicio, Calendar fim) {
-		TypedQuery<Pacote> query = em.createQuery("from Pacotes p where p.dataSaida between #:ini and #:fi", Pacote.class);
+		TypedQuery<Pacote> query = em.createQuery("from Pacote p where p.dataSaida between :ini and :fi", Pacote.class);
 		query.setParameter("ini", inicio);
 		query.setParameter("fi", fim);
 		return query.getResultList();
+	}
+
+	@Override
+	public double precoMedio() {
+		TypedQuery<Double> query = em.createQuery("select avg(p.preco) from Pacote p", Double.class);
+		
+		return query.getSingleResult();
+	}
+
+	@Override
+	public int pacotesCadastradosEntreDatas(Calendar inicio, Calendar fim) {
+		TypedQuery<Integer> query = em.createQuery("select count(p) from Pacote p between :ini and :fi", Integer.class);
+		query.setParameter("ini", inicio);
+		query.setParameter("fi", fim);
+		return query.getSingleResult();
+	}
+
+	@Override
+	public Pacote pacoteMaiorPreco() {
+		TypedQuery<Pacote> query = em.createQuery("from Pacote p where p.preco = max(p.preco)", Pacote.class);
+		return query.getSingleResult();
 	}
 
 }
