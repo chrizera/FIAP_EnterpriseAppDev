@@ -6794,3 +6794,131 @@
 2017-04-17 22:10:13,532 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_EnterpriseAppDev\Enterprise Application Development\06-JPA-JPQL-Apostila\src\test\resources
 2017-04-17 22:18:22,762 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@4e4ecb4d{HTTP/1.1,[http/1.1]}{127.0.0.1:0}
 2017-04-17 22:18:22,778 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@5a10b6b6{/help,null,UNAVAILABLE}
+2017-04-17 22:20:31,997 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-17 22:20:32,002 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_EnterpriseAppDev\Enterprise Application Development\Revisao\src\main\resources
+2017-04-17 22:20:32,005 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-17 22:20:32,005 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_EnterpriseAppDev\Enterprise Application Development\Revisao\src\test\resources
+2017-04-17 22:20:34,702 [Start Help Server] INFO  org.eclipse.jetty.util.log - Logging initialized @19407ms
+2017-04-17 22:20:35,234 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-9.3.9.v20160517
+2017-04-17 22:20:35,566 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@2c2f82b{/help,null,AVAILABLE}
+2017-04-17 22:20:35,591 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@26a15aad{HTTP/1.1,[http/1.1]}{127.0.0.1:4737}
+2017-04-17 22:20:35,592 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @20298ms
+2017-04-17 22:22:24,629 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-17 22:22:24,630 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_EnterpriseAppDev\Enterprise Application Development\06-JPA-JPQL-Apostila\src\main\resources
+2017-04-17 22:22:24,631 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-17 22:22:24,632 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_EnterpriseAppDev\Enterprise Application Development\06-JPA-JPQL-Apostila\src\test\resources
+2017-04-17 22:23:23,310 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-17 22:23:23,311 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_EnterpriseAppDev\Enterprise Application Development\06-JPA-JPQL-Apostila\src\main\resources
+2017-04-17 22:23:23,312 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-17 22:23:23,313 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_EnterpriseAppDev\Enterprise Application Development\06-JPA-JPQL-Apostila\src\test\resources
+2017-04-17 22:24:37,910 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-17 22:24:37,911 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_EnterpriseAppDev\Enterprise Application Development\06-JPA-JPQL-Apostila\src\main\resources
+2017-04-17 22:24:37,913 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-17 22:24:37,913 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_EnterpriseAppDev\Enterprise Application Development\06-JPA-JPQL-Apostila\src\test\resources
+2017-04-17 22:24:59,381 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-17 22:24:59,382 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_EnterpriseAppDev\Enterprise Application Development\06-JPA-JPQL-Apostila\src\main\resources
+2017-04-17 22:24:59,384 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-17 22:24:59,384 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_EnterpriseAppDev\Enterprise Application Development\06-JPA-JPQL-Apostila\src\test\resources
+2017-04-17 22:25:08,075 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-17 22:25:08,076 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_EnterpriseAppDev\Enterprise Application Development\06-JPA-JPQL-Apostila\src\main\resources
+2017-04-17 22:25:08,078 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-17 22:25:08,079 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_EnterpriseAppDev\Enterprise Application Development\06-JPA-JPQL-Apostila\src\test\resources
+2017-04-17 22:26:45,185 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-17 22:26:45,186 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_EnterpriseAppDev\Enterprise Application Development\06-JPA-JPQL-Apostila\src\main\resources
+2017-04-17 22:26:45,187 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-17 22:26:45,188 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_EnterpriseAppDev\Enterprise Application Development\06-JPA-JPQL-Apostila\src\test\resources
+2017-04-17 22:29:11,536 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-17 22:29:11,537 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_EnterpriseAppDev\Enterprise Application Development\06-JPA-JPQL-Apostila\src\main\resources
+2017-04-17 22:29:11,540 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-17 22:29:11,540 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_EnterpriseAppDev\Enterprise Application Development\06-JPA-JPQL-Apostila\src\test\resources
+2017-04-17 22:36:36,257 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-17 22:36:36,257 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_EnterpriseAppDev\Enterprise Application Development\06-JPA-JPQL-Apostila\src\main\resources
+2017-04-17 22:36:36,257 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-17 22:36:36,257 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_EnterpriseAppDev\Enterprise Application Development\06-JPA-JPQL-Apostila\src\test\resources
+2017-04-17 22:36:46,811 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-17 22:36:46,811 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_EnterpriseAppDev\Enterprise Application Development\06-JPA-JPQL-Apostila\src\main\resources
+2017-04-17 22:36:46,811 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-17 22:36:46,811 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_EnterpriseAppDev\Enterprise Application Development\06-JPA-JPQL-Apostila\src\test\resources
+2017-04-17 22:37:00,421 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-17 22:37:00,421 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_EnterpriseAppDev\Enterprise Application Development\06-JPA-JPQL-Apostila\src\main\resources
+2017-04-17 22:37:00,421 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-17 22:37:00,421 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_EnterpriseAppDev\Enterprise Application Development\06-JPA-JPQL-Apostila\src\test\resources
+2017-04-17 22:37:12,984 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-17 22:37:12,984 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_EnterpriseAppDev\Enterprise Application Development\06-JPA-JPQL-Apostila\src\main\resources
+2017-04-17 22:37:12,984 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-17 22:37:12,984 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_EnterpriseAppDev\Enterprise Application Development\06-JPA-JPQL-Apostila\src\test\resources
+2017-04-17 22:38:29,219 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-17 22:38:29,219 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_EnterpriseAppDev\Enterprise Application Development\06-JPA-JPQL-Apostila\src\main\resources
+2017-04-17 22:38:29,234 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-17 22:38:29,234 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_EnterpriseAppDev\Enterprise Application Development\06-JPA-JPQL-Apostila\src\test\resources
+2017-04-17 22:40:11,569 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-17 22:40:11,569 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_EnterpriseAppDev\Enterprise Application Development\06-JPA-JPQL-Apostila\src\main\resources
+2017-04-17 22:40:11,569 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-17 22:40:11,569 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_EnterpriseAppDev\Enterprise Application Development\06-JPA-JPQL-Apostila\src\test\resources
+2017-04-17 22:40:16,147 [Worker-30] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for Revisao
+2017-04-17 22:40:17,804 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-17 22:40:17,804 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_EnterpriseAppDev\Enterprise Application Development\05-JPA-Relacionamentos\src\main\resources
+2017-04-17 22:40:17,804 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-17 22:40:17,804 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_EnterpriseAppDev\Enterprise Application Development\05-JPA-Relacionamentos\src\test\resources
+2017-04-17 22:40:18,085 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-17 22:40:18,085 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_EnterpriseAppDev\Enterprise Application Development\06-JPA-JPQL-Apostila\src\main\resources
+2017-04-17 22:40:18,100 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-17 22:40:18,100 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_EnterpriseAppDev\Enterprise Application Development\06-JPA-JPQL-Apostila\src\test\resources
+2017-04-17 22:40:18,444 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-17 22:40:18,460 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_EnterpriseAppDev\Enterprise Application Development\Revisao\src\main\resources
+2017-04-17 22:40:18,460 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-17 22:40:18,460 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_EnterpriseAppDev\Enterprise Application Development\Revisao\src\test\resources
+2017-04-17 22:40:18,460 [Worker-30] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of Revisao
+2017-04-17 22:40:18,460 [Worker-30] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for Revisao
+2017-04-17 22:40:18,522 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-clean-plugin:jar:2.5 is missing, no dependency information available
+2017-04-17 22:40:18,538 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-17 22:40:48,741 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-17 22:40:48,741 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_EnterpriseAppDev\Enterprise Application Development\06-JPA-JPQL-Apostila\src\main\resources
+2017-04-17 22:40:48,741 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-17 22:40:48,741 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_EnterpriseAppDev\Enterprise Application Development\06-JPA-JPQL-Apostila\src\test\resources
+2017-04-17 22:40:49,772 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-17 22:40:49,772 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_EnterpriseAppDev\Enterprise Application Development\06-JPA-JPQL-Apostila\src\main\resources
+2017-04-17 22:40:49,772 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-17 22:40:49,772 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_EnterpriseAppDev\Enterprise Application Development\06-JPA-JPQL-Apostila\src\test\resources
+2017-04-17 22:40:54,741 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-17 22:40:54,741 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_EnterpriseAppDev\Enterprise Application Development\06-JPA-JPQL-Apostila\src\main\resources
+2017-04-17 22:40:54,741 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-17 22:40:54,741 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_EnterpriseAppDev\Enterprise Application Development\06-JPA-JPQL-Apostila\src\test\resources
+2017-04-17 22:41:08,725 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-17 22:41:08,725 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_EnterpriseAppDev\Enterprise Application Development\06-JPA-JPQL-Apostila\src\main\resources
+2017-04-17 22:41:08,725 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-17 22:41:08,725 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_EnterpriseAppDev\Enterprise Application Development\06-JPA-JPQL-Apostila\src\test\resources
+2017-04-17 22:41:12,210 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-17 22:41:12,210 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_EnterpriseAppDev\Enterprise Application Development\06-JPA-JPQL-Apostila\src\main\resources
+2017-04-17 22:41:12,210 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-17 22:41:12,210 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_EnterpriseAppDev\Enterprise Application Development\06-JPA-JPQL-Apostila\src\test\resources
+2017-04-17 22:41:22,819 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-17 22:41:22,819 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_EnterpriseAppDev\Enterprise Application Development\06-JPA-JPQL-Apostila\src\main\resources
+2017-04-17 22:41:22,819 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-17 22:41:22,819 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_EnterpriseAppDev\Enterprise Application Development\06-JPA-JPQL-Apostila\src\test\resources
+2017-04-17 22:42:08,272 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-17 22:42:08,272 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_EnterpriseAppDev\Enterprise Application Development\06-JPA-JPQL-Apostila\src\main\resources
+2017-04-17 22:42:08,272 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-17 22:42:08,288 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_EnterpriseAppDev\Enterprise Application Development\06-JPA-JPQL-Apostila\src\test\resources
+2017-04-17 22:43:33,617 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-17 22:43:33,617 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_EnterpriseAppDev\Enterprise Application Development\06-JPA-JPQL-Apostila\src\main\resources
+2017-04-17 22:43:33,617 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-17 22:43:33,617 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_EnterpriseAppDev\Enterprise Application Development\06-JPA-JPQL-Apostila\src\test\resources
+2017-04-17 22:44:04,176 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-17 22:44:04,176 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_EnterpriseAppDev\Enterprise Application Development\06-JPA-JPQL-Apostila\src\main\resources
+2017-04-17 22:44:04,176 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-17 22:44:04,176 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_EnterpriseAppDev\Enterprise Application Development\06-JPA-JPQL-Apostila\src\test\resources
+2017-04-17 22:44:06,239 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-17 22:44:06,239 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_EnterpriseAppDev\Enterprise Application Development\06-JPA-JPQL-Apostila\src\main\resources
+2017-04-17 22:44:06,255 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-17 22:44:06,255 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_EnterpriseAppDev\Enterprise Application Development\06-JPA-JPQL-Apostila\src\test\resources
+2017-04-17 22:44:59,880 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-17 22:44:59,896 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_EnterpriseAppDev\Enterprise Application Development\06-JPA-JPQL-Apostila\src\main\resources
+2017-04-17 22:44:59,896 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-17 22:44:59,896 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_EnterpriseAppDev\Enterprise Application Development\06-JPA-JPQL-Apostila\src\test\resources
+2017-04-17 22:45:20,396 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-17 22:45:20,412 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_EnterpriseAppDev\Enterprise Application Development\06-JPA-JPQL-Apostila\src\main\resources
+2017-04-17 22:45:20,412 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-17 22:45:20,412 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\FIAP_EnterpriseAppDev\Enterprise Application Development\06-JPA-JPQL-Apostila\src\test\resources
+2017-04-17 22:46:01,334 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@26a15aad{HTTP/1.1,[http/1.1]}{127.0.0.1:0}
+2017-04-17 22:46:01,365 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@2c2f82b{/help,null,UNAVAILABLE}

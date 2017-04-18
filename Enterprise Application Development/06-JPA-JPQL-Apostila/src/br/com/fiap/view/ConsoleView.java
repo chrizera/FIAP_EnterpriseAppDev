@@ -1,5 +1,6 @@
 package br.com.fiap.view;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
@@ -101,6 +102,17 @@ public class ConsoleView {
 		for (Pacote pacote : pacoteComMaiorPreco) {
 			System.out.println("---PACOTE COM MAIOR PRECO: " + pacote.getDescricao());
 
+		}
+		
+		Cliente clientePorCpf = clienteDAO.buscarPorCpf("99828771111");
+		System.out.println(clientePorCpf.getNome() + " - " + clientePorCpf.getCpf());
+		
+		List<Cliente> clientePorMes = clienteDAO.buscarPorMesAniversario(2);
+		
+		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+		
+		for (Cliente cliente : clientePorMes) {
+			System.out.println(cliente.getNome() + " - " + sdf.format(cliente.getDataNascimento().getTime()));
 		}
 		
 		em.close();
