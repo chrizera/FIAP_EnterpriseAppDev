@@ -54,17 +54,17 @@ public class PacoteDAOImpl extends GenericDAOImpl<Pacote,Integer> implements Pac
 	}
 
 	@Override
-	public int pacotesCadastradosEntreDatas(Calendar inicio, Calendar fim) {
-		TypedQuery<Integer> query = em.createQuery("select count(p) from Pacote p between :ini and :fi", Integer.class);
+	public long pacotesCadastradosEntreDatas(Calendar inicio, Calendar fim) {
+		TypedQuery<Long> query = em.createQuery("select count(p) from Pacote p where p.dataSaida between :ini and :fi", Long.class);
 		query.setParameter("ini", inicio);
 		query.setParameter("fi", fim);
 		return query.getSingleResult();
 	}
 
 	@Override
-	public Pacote pacoteMaiorPreco() {
-		TypedQuery<Pacote> query = em.createQuery("from Pacote p where p.preco = max(p.preco)", Pacote.class);
-		return query.getSingleResult();
+	public List<Pacote> pacoteMaiorPreco() {
+		TypedQuery<Pacote> query = em.createQuery("from Pacote p where p.preco = (select max(pa.preco) from Pacote pa)", Pacote.class);
+		return query.getResultList();
 	}
 
 }

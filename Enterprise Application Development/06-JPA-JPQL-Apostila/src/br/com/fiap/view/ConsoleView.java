@@ -87,17 +87,21 @@ public class ConsoleView {
 			System.out.println("---EXEMPLO BUSCA POR ESTADO: " + cliente.getNome() + " - " + cliente.getEndereco().getCidade().getUf());
 		}
 		
-		int quantidadeTotal = clienteDAO.quantidadeDeClientes();
+		long quantidadeTotal = clienteDAO.quantidadeDeClientes();
 		System.out.println("---QUANTIDADE DE CLIENTES: " + quantidadeTotal);
 		
 		double precoMedio = dao.precoMedio();
 		System.out.println("---PRECO MEDIO DE PACOTES: " + precoMedio);
 		
-		int quantidadePacotesData = dao.pacotesCadastradosEntreDatas(new GregorianCalendar(2017, Calendar.JANUARY, 1), new GregorianCalendar(2017, Calendar.DECEMBER, 30));
-		System.out.println("---QUANTIDADE PRECOS POR DATA"+quantidadePacotesData);
+		long quantidadePacotesData = dao.pacotesCadastradosEntreDatas(new GregorianCalendar(2017, Calendar.JANUARY, 1), new GregorianCalendar(2017, Calendar.DECEMBER, 30));
+		System.out.println("---QUANTIDADE PRECOS POR DATA: "+quantidadePacotesData);
 		
-		Pacote pacoteComMaiorPreco = dao.pacoteMaiorPreco();
-		System.out.println("---PACOTE COM MAIOR PRECO: " + pacoteComMaiorPreco.getDescricao());
+		List<Pacote> pacoteComMaiorPreco = dao.pacoteMaiorPreco();
+
+		for (Pacote pacote : pacoteComMaiorPreco) {
+			System.out.println("---PACOTE COM MAIOR PRECO: " + pacote.getDescricao());
+
+		}
 		
 		em.close();
 	}

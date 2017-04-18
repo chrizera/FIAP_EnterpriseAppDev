@@ -54,8 +54,8 @@ public class ClienteDAOImpl extends GenericDAOImpl<Cliente,Integer> implements C
 	}
 
 	@Override
-	public int quantidadeDeClientes() {
-		TypedQuery<Integer> query = em.createQuery("select count(c) from Cliente c", Integer.class);
+	public long quantidadeDeClientes() {
+		TypedQuery<Long> query = em.createQuery("select count(c) from Cliente c", Long.class);
 		return query.getSingleResult();
 	}
 

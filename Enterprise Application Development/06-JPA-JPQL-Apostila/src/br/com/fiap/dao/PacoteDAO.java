@@ -18,7 +18,7 @@ public interface PacoteDAO extends GenericDAO<Pacote,Integer>{
 	
 	double precoMedio();
 	
-	int pacotesCadastradosEntreDatas(Calendar inicio, Calendar fim);
+	long pacotesCadastradosEntreDatas(Calendar inicio, Calendar fim);
 	
-	Pacote pacoteMaiorPreco();
+	List<Pacote> pacoteMaiorPreco();
 }
