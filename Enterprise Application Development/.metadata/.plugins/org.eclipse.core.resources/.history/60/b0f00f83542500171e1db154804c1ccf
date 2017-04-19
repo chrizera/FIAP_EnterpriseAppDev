@@ -1,0 +1,9 @@
+package br.com.fiap.entity;
+
+import javax.persistence.ManyToOne;
+
+public class ItemPedido {
+
+	@ManyToOne(mappedBy = "itemPedido")
+	private Produto produto;
+}

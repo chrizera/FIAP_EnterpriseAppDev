@@ -1,0 +1,8 @@
+package br.com.fiap.entity;
+
+public class ItemPedidoPK {
+
+	private int pedido;
+	
+	private int produto;
+}

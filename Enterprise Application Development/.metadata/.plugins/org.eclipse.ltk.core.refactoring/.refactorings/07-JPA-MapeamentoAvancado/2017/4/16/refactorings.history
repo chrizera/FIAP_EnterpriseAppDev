@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;br.com.fiap.dao.ItemPedido&apos; to &apos;ItemPedidoDAO&apos;&#x0D;&#x0A;- Original project: &apos;07-JPA-MapeamentoAvancado&apos;&#x0D;&#x0A;- Original element: &apos;br.com.fiap.dao.ItemPedido&apos;&#x0D;&#x0A;- Renamed element: &apos;br.com.fiap.dao.ItemPedidoDAO&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ItemPedido&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;br.com.fiap.dao{ItemPedido.java[ItemPedido" matchStrategy="1" name="ItemPedidoDAO" qualified="false" references="true" similarDeclarations="false" stamp="1492644376241" textual="false" version="1.0"/>
+</session>

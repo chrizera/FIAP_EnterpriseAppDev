@@ -11,12 +11,15 @@ import javax.persistence.Persistence;
 
 import br.com.fiap.dao.ClienteDAO;
 import br.com.fiap.dao.PacoteDAO;
+import br.com.fiap.dao.ReservaDAO;
 import br.com.fiap.dao.TransporteDAO;
 import br.com.fiap.dao.impl.ClienteDAOImpl;
 import br.com.fiap.dao.impl.PacoteDAOImpl;
+import br.com.fiap.dao.impl.ReservaDAOImpl;
 import br.com.fiap.dao.impl.TransporteDAOImpl;
 import br.com.fiap.entity.Cliente;
 import br.com.fiap.entity.Pacote;
+import br.com.fiap.entity.Reserva;
 import br.com.fiap.entity.Transporte;
 
 public class ConsoleView {
@@ -113,6 +116,12 @@ public class ConsoleView {
 		
 		for (Cliente cliente : clientePorMes) {
 			System.out.println(cliente.getNome() + " - " + sdf.format(cliente.getDataNascimento().getTime()));
+		}
+		ReservaDAO reservaDAO = new ReservaDAOImpl(em);
+		List<Reserva> listaReservasPorDia = reservaDAO.buscarPorNumeroDeDias(10);
+		
+		for (Reserva reserva : listaReservasPorDia) {
+			System.out.println(reserva.getCliente().getNome() + " - " + reserva.getNumeroDias());
 		}
 		
 		em.close();
