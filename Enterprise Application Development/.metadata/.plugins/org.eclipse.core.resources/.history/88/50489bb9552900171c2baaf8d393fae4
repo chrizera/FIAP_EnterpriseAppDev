@@ -1,0 +1,18 @@
+package br.com.fiap.view;
+
+import javax.persistence.EntityManager;
+
+import br.com.fiap.dao.DependenteDAO;
+import br.com.fiap.dao.impl.DependenteDAOImpl;
+import br.com.fiap.singleton.EntityManagerFactorySingleton;
+
+public class ConsoleView {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		EntityManager em = EntityManagerFactorySingleton.getInstance().createEntityManager();
+		DependenteDAO dao = new DependenteDAOImpl(em);
+
+	}
+
+}

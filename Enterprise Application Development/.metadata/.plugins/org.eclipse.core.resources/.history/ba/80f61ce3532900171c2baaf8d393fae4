@@ -1,0 +1,8 @@
+package br.com.fiap.entity;
+
+public class DependentePK {
+
+	private int codigo;
+	
+	private int funcionario;
+}

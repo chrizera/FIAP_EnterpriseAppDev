@@ -1,0 +1,14 @@
+package br.com.fiap.entity;
+
+import javax.persistence.Table;
+
+import javax.persistence.Entity;
+import javax.persistence.SequenceGenerator;
+
+@Entity
+@Table(name = "T_DEPENDENTE")
+@SequenceGenerator(allocationSize = 0, name = "seqDependente", sequenceName = "SQ_T_DEPENDENTE")
+public class Dependente {
+
+	
+}
