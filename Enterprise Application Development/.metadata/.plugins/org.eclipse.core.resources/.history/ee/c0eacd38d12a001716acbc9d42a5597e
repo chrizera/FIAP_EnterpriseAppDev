@@ -1,0 +1,63 @@
+package br.com.fiap.entity;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.SequenceGenerator;
+import javax.persistence.Table;
+
+@Entity
+@Table
+@SequenceGenerator(allocationSize = 1, name = "seqPessoa", sequenceName = "SQ_T_PESSOA")
+public class Pessoa {
+
+	@Id
+	@Column
+	@GeneratedValue(generator = "seqPessoa", strategy = GenerationType.SEQUENCE)
+	private int codigo;
+	
+	@Column
+	private String nome;
+	
+	@Column
+	private String endereco;
+
+	public Pessoa(int codigo, String nome, String endereco) {
+		super();
+		this.codigo = codigo;
+		this.nome = nome;
+		this.endereco = endereco;
+	}
+
+	public Pessoa() {
+		super();
+	}
+
+	public int getCodigo() {
+		return codigo;
+	}
+
+	public void setCodigo(int codigo) {
+		this.codigo = codigo;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public String getEndereco() {
+		return endereco;
+	}
+
+	public void setEndereco(String endereco) {
+		this.endereco = endereco;
+	}
+	
+	
+}

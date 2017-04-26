@@ -1,9 +1,0 @@
-package br.com.fiap.entity;
-
-import javax.persistence.ManyToOne;
-
-public class ItemPedido {
-
-	@ManyToOne()
-	private Produto produto;
-}

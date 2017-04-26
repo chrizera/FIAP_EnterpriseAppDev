@@ -2,13 +2,135 @@
 <?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/atom10full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><feed xmlns="http://www.w3.org/2005/Atom" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0">
 <title>JBoss Central</title>
 <generator uri="http://tt-rss.org/">Tiny Tiny RSS/1.9</generator>
-<updated>2017-02-22T14:22:13+00:00</updated>
+<updated>2017-02-24T09:03:38+00:00</updated>
 <id>http://tiny-man.rhcloud.com/public.php?op=rss&amp;id=1&amp;key=b0143615132bd9efc4e83ba42a5574f6ab939b28</id>
 
 
 <link href="http://tiny-man.rhcloud.com" rel="alternate" />
 
 <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/atom+xml" href="http://feeds.feedburner.com/jbossbuzz" /><feedburner:info uri="jbossbuzz" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><entry>
+	<id>https://tools.jboss.org/blog/4.4.4.am3-for-neon.3.html</id>
+	<link href="http://feedproxy.google.com/~r/jbossbuzz/~3/-XC7ZTrX5EQ/4.4.4.am3-for-neon.3.html" rel="alternate" type="text/html" />
+	<title>JBoss Tools 4.4.4.AM3 for Eclipse Neon.3</title>
+	<summary type="html"><![CDATA[
+      <div><div id="preamble">
+      <div class="sectionbody">
+      <div class="paragraph">
+      <p>Happy to announce 4.4.4.AM3 (Developer Milestone 3) build for Eclipse Neon.3.</p>
+      </div>
+      <div class="paragraph">
+      <p>Downloads available at <a href="https://tools.jboss.org/downloads/jbosstools/neon/4.4.4.AM3.html">JBoss Tools 4.4.4 AM3</a>.</p>
+      </div>
+      </div>
+      </div>
+      <div class="sect1">
+      <h2 id="what-is-new"><a class="anchor" href="#what-is-new"></a>What is New?</h2>
+      <div class="sectionbody">
+      <div class="paragraph">
+      <p>Full info is at <a href="https://tools.jboss.org/documentation/whatsnew/jbosstools/4.4.4.AM3.html">this page</a>. Some highlights are below.</p>
+      </div>
+      <div class="sect2">
+      <h3 id="openshift-3"><a class="anchor" href="#openshift-3"></a>OpenShift 3</h3>
+      <div class="sect3">
+      <h4 id="pipeline-builds-support"><a class="anchor" href="#pipeline-builds-support"></a>Pipeline builds support</h4>
+      <div class="paragraph">
+      <p>Pipeline based builds are now supported by the OpenShift tooling.
+      When creating an application, if using a template, if one of the builds is based on pipeline, you can view the detail
+      of the pipeline:</p>
+      </div>
+      <div class="imageblock">
+      <div class="content">
+      <img src="https://tools.jboss.org/documentation/whatsnew/openshift/images/pipeline-wizard.png" alt="pipeline wizard" width="600" />
+      </div>
+      </div>
+      <div class="paragraph">
+      <p>When your application is deployed, you can see the details of the build configuration for the pipeline based builds:</p>
+      </div>
+      <div class="imageblock">
+      <div class="content">
+      <img src="https://tools.jboss.org/documentation/whatsnew/openshift/images/pipeline-details.png" alt="pipeline details" width="600" />
+      </div>
+      </div>
+      <div class="paragraph">
+      <p>More to come as we are improving the pipeline support in the OpenShift tooling.</p>
+      </div>
+      <div class="paragraph">
+      <p>Enjoy!</p>
+      </div>
+      <div class="paragraph">
+      <p>Jeff Maury</p>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div></div>
+    ]]></summary>
+	<content type="html">&lt;html&gt;&lt;body&gt;&lt;div&gt;&lt;div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Happy to announce 4.4.4.AM3 (Developer Milestone 3) build for Eclipse Neon.3.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Downloads available at &lt;a href="https://tools.jboss.org/downloads/jbosstools/neon/4.4.4.AM3.html" target="_blank"&gt;JBoss Tools 4.4.4 AM3&lt;/a&gt;.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h2&gt;&lt;a href="#what-is-new" target="_blank"&gt;&lt;/a&gt;What is New?&lt;/h2&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Full info is at &lt;a href="https://tools.jboss.org/documentation/whatsnew/jbosstools/4.4.4.AM3.html" target="_blank"&gt;this page&lt;/a&gt;. Some highlights are below.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h3&gt;&lt;a href="#openshift-3" target="_blank"&gt;&lt;/a&gt;OpenShift 3&lt;/h3&gt;
+      &lt;div&gt;
+      &lt;h4&gt;&lt;a href="#pipeline-builds-support" target="_blank"&gt;&lt;/a&gt;Pipeline builds support&lt;/h4&gt;
+      &lt;div&gt;
+      &lt;p&gt;Pipeline based builds are now supported by the OpenShift tooling.
+      When creating an application, if using a template, if one of the builds is based on pipeline, you can view the detail
+      of the pipeline:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="https://tools.jboss.org/documentation/whatsnew/openshift/images/pipeline-wizard.png" alt="pipeline wizard" width="600"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;When your application is deployed, you can see the details of the build configuration for the pipeline based builds:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="https://tools.jboss.org/documentation/whatsnew/openshift/images/pipeline-details.png" alt="pipeline details" width="600"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;More to come as we are improving the pipeline support in the OpenShift tooling.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Enjoy!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Jeff Maury&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;img src="http://feeds.feedburner.com/~r/jbossbuzz/~4/-XC7ZTrX5EQ" height="1" width="1" alt=""/&gt;</content>
+	<updated>2017-04-25T14:09:02+00:00</updated>
+	<author><name>jeffmaury</name></author>
+	<source>
+		<link rel="self" href="http://tools.jboss.org/blog/" />
+		<title>JBoss Tools</title></source>
+
+	<category term="release" />
+
+	<category term="jbosstools" />
+
+	<category term="jbosscentral" />
+
+
+<feedburner:origLink>https://tools.jboss.org/blog/4.4.4.am3-for-neon.3.html</feedburner:origLink></entry>
+
+<entry>
 	<id>https://developer.jboss.org/blogs/weekly-editorial/2017/04/21/this-week-in-jboss-april-21st-bpm-ruling-the-world</id>
 	<link href="http://feedproxy.google.com/~r/jbossbuzz/~3/ltdnb1XaliM/this-week-in-jboss-april-21st-bpm-ruling-the-world" rel="alternate" type="text/html" />
 	<title>This week in JBoss (April 21st): BPM Ruling The World?</title>
@@ -1118,367 +1240,6 @@
 
 
 <feedburner:origLink>https://developer.jboss.org/blogs/weekly-editorial/2017/02/18/this-week-in-jboss-16th-january-2017-releases-and-birthdays</feedburner:origLink></entry>
-
-<entry>
-	<id>https://tools.jboss.org/blog/integration-stack-4.4.1.Final.html</id>
-	<link href="http://feedproxy.google.com/~r/jbossbuzz/~3/lq371H2MJfI/integration-stack-4.4.1.Final.html" rel="alternate" type="text/html" />
-	<title>Fuse Tooling for Fuse Integration Services and Teiid Designer on Neon</title>
-	<summary type="html"><![CDATA[
-      <div><div id="preamble">
-      <div class="sectionbody">
-      <div class="paragraph">
-      <p><strong>Try our complete Eclipse-Neon capable, Devstudio 10.2.0 compatible integration tooling.</strong></p>
-      </div>
-      <div class="imageblock">
-      <div class="content">
-      <img src="https://tools.jboss.org/blog/images/jbosstools-jbdevstudio-blog-header.png" alt="jbosstools jbdevstudio blog header" />
-      </div>
-      </div>
-      <div class="paragraph">
-      <p><strong>JBoss Tools Integration Stack 4.4.1.Final / JBoss Developer Studio Integration Stack 10.1.0.GA</strong></p>
-      </div>
-      <div class="admonitionblock note">
-      <table>
-      <tr>
-      <td class="icon">
-      <i class="fa icon-note" title="Note"></i>
-      </td>
-      <td class="content">
-      All of the Integration Stack components have been verified to work with the same dependencies as JBoss Tools 4.4 and Developer Studio 10.
-      </td>
-      </tr>
-      </table>
-      </div>
-      </div>
-      </div>
-      <div class="sect1">
-      <h2 id="what-s-new-for-this-release"><a class="anchor" href="#what-s-new-for-this-release"></a>What’s new for this release?</h2>
-      <div class="sectionbody">
-      <div class="paragraph">
-      <p>Fuse Tooling is providing support for FIS 2.0 projects based on the fabric8-maven-plugin workflow. FIS 2.0 spring-boot based projects can be debugged locally and deployed on an OpenShift instance.  Also - this release features the newest production 11.0.1.Final Teiid Designer.  There are no more early access bits for Neon!</p>
-      </div>
-      <div class="sect2">
-      <h3 id="released-tooling-highlights"><a class="anchor" href="#released-tooling-highlights"></a>Released Tooling Highlights</h3>
-      <div class="sect3">
-      <h4 id="jboss-fuse-development-highlights"><a class="anchor" href="#jboss-fuse-development-highlights"></a>JBoss Fuse Development Highlights</h4>
-      <div class="sect4">
-      <h5 id="fuse-tooling-highlights"><a class="anchor" href="#fuse-tooling-highlights"></a>Fuse Tooling Highlights</h5>
-      <div class="paragraph">
-      <p>See the <a href="https://access.redhat.com/documentation/en-us/red_hat_jboss_developer_studio_integration_stack/10.1/html/10.1.0.ga_release_notes_and_known_issues/resolved_issues#fuse_tooling_9_1_0_final">Fuse Tooling 9.1.0.Final Resolved Issues Section</a> of the Integration Stack 10.1.0.GA release notes.</p>
-      </div>
-      </div>
-      <div class="sect4">
-      <h5 id="switchyard-highlights"><a class="anchor" href="#switchyard-highlights"></a>SwitchYard Highlights</h5>
-      <div class="paragraph">
-      <p>See the <a href="https://access.redhat.com/documentation/en-us/red_hat_jboss_developer_studio_integration_stack/10.1/html/10.1.0.ga_release_notes_and_known_issues/resolved_issues#switchyard_2_3_0_final_2">SwitchYard 2.3.0.Final Resolved Issues Section</a> of the Integration Stack 10.1.0.GA release notes.</p>
-      </div>
-      </div>
-      </div>
-      <div class="sect3">
-      <h4 id="jboss-business-process-and-rules-development"><a class="anchor" href="#jboss-business-process-and-rules-development"></a>JBoss Business Process and Rules Development</h4>
-      <div class="sect4">
-      <h5 id="bpmn2-modeler-known-issues"><a class="anchor" href="#bpmn2-modeler-known-issues"></a>BPMN2 Modeler Known Issues</h5>
-      <div class="paragraph">
-      <p>See the <a href="https://access.redhat.com/documentation/en-us/red_hat_jboss_developer_studio_integration_stack/10.1/html/10.1.0.ga_release_notes_and_known_issues/known_issues#bpmn2_1_3_2_final_1_3_1_final">BPMN2 1.3.2.Final Known Issues Section</a> of the Integration Stack 10.1.0.GA release notes.</p>
-      </div>
-      </div>
-      <div class="sect4">
-      <h5 id="drools-jbpm6-highlights"><a class="anchor" href="#drools-jbpm6-highlights"></a>Drools/jBPM6 Highlights</h5>
-      <div class="paragraph">
-      <p>See the <a href="https://access.redhat.com/documentation/en-us/red_hat_jboss_developer_studio_integration_stack/10.1/html/10.1.0.ga_release_notes_and_known_issues/known_issues#drools_6_5_1_final">Drools 6.5.1.Final Known Issues Section</a></p>
-      </div>
-      </div>
-      </div>
-      <div class="sect3">
-      <h4 id="data-virtualization-highlights"><a class="anchor" href="#data-virtualization-highlights"></a>Data Virtualization Highlights</h4>
-      <div class="sect4">
-      <h5 id="teiid-designer-highlights"><a class="anchor" href="#teiid-designer-highlights"></a>Teiid Designer Highlights</h5>
-      <div class="paragraph">
-      <p>See the <a href="https://access.redhat.com/documentation/en-us/red_hat_jboss_developer_studio_integration_stack/10.1/html/10.1.0.ga_release_notes_and_known_issues/resolved_issues#teiid_designer_11_0_1_final_2">Teiid Designer 11.0.1.Final Resolved Issues Section</a> of the Integration Stack 10.1.0.GA release notes.</p>
-      </div>
-      </div>
-      </div>
-      </div>
-      </div>
-      </div>
-      <div class="sect1">
-      <h2 id="what-s-an-integration-stack"><a class="anchor" href="#what-s-an-integration-stack"></a>What’s an Integration Stack?</h2>
-      <div class="sectionbody">
-      <div class="paragraph">
-      <p>Red Hat JBoss Developer Studio Integration Stack is a set of Eclipse-based development tools. It further enhances the IDE functionality provided by JBoss Developer Studio, with plug-ins specifically for use when developing for other Red Hat JBoss products.  It’s where the Fuse Tooling, DataVirt Tooling and BRMS tooling is aggregated.  The following frameworks are supported:</p>
-      </div>
-      <div class="sect2">
-      <h3 id="jboss-fuse-development"><a class="anchor" href="#jboss-fuse-development"></a>JBoss Fuse Development</h3>
-      <div class="ulist">
-      <ul>
-      <li>
-      <p><a href="https://tools.jboss.org/features/apachecamel.html">Fuse Tooling</a> - JBoss Fuse Development provides tooling for Red Hat JBoss Fuse.  It features the latest versions of the Fuse Data Transformation tooling, Fuse Integration Services support, SwitchYard and access to the Fuse SAP Tool Suite.  Read more about <a href="https://www.openshift.com/container-platform/middleware-services.html">Microservices Solutions for Integration</a></p>
-      </li>
-      <li>
-      <p><a href="https://tools.jboss.org/features/switchyard.html">SwitchYard</a> - A lightweight service delivery framework providing full lifecycle support for developing, deploying, and managing service-oriented applications.</p>
-      </li>
-      </ul>
-      </div>
-      </div>
-      <div class="sect2">
-      <h3 id="jboss-business-process-and-rules-development-2"><a class="anchor" href="#jboss-business-process-and-rules-development-2"></a>JBoss Business Process and Rules Development</h3>
-      <div class="paragraph">
-      <p>JBoss Business Process and Rules Development plug-ins provide design, debug and testing tooling for developing business processes for Red Hat JBoss BRMS and Red Hat JBoss BPM Suite.</p>
-      </div>
-      <div class="ulist">
-      <ul>
-      <li>
-      <p><a href="https://tools.jboss.org/features/bpel.html">BPEL Designer</a> - Orchestrating your business processes.</p>
-      </li>
-      <li>
-      <p><a href="https://tools.jboss.org/features/bpmn2.html">BPMN2 Modeler</a> - A graphical modeling tool which allows creation and editing of Business Process Modeling Notation diagrams using graphiti.</p>
-      </li>
-      <li>
-      <p><a href="https://tools.jboss.org/features/drools.html">Drools</a> - A Business Logic integration Platform which provides a unified and integrated platform for Rules, Workflow and Event Processing including KIE.</p>
-      </li>
-      <li>
-      <p><a href="https://tools.jboss.org/features/jbpm.html">jBPM6</a> - A flexible Business Process Management (BPM) suite.</p>
-      </li>
-      </ul>
-      </div>
-      </div>
-      <div class="sect2">
-      <h3 id="jboss-data-virtualization-development"><a class="anchor" href="#jboss-data-virtualization-development"></a>JBoss Data Virtualization Development</h3>
-      <div class="paragraph">
-      <p>JBoss Data Virtualization Development plug-ins provide a graphical interface to manage various aspects of Red Hat JBoss Data Virtualization instances, including the ability to design virtual databases and interact with associated governance repositories.</p>
-      </div>
-      <div class="ulist">
-      <ul>
-      <li>
-      <p><a href="https://tools.jboss.org/features/teiiddesigner.html">Teiid Designer</a> - A visual tool that enables rapid, model-driven definition, integration, management and testing of data services without programming using the Teiid runtime framework.</p>
-      </li>
-      </ul>
-      </div>
-      </div>
-      <div class="sect2">
-      <h3 id="jboss-integration-and-soa-development"><a class="anchor" href="#jboss-integration-and-soa-development"></a>JBoss Integration and SOA Development</h3>
-      <div class="paragraph">
-      <p>JBoss Integration and SOA Development plug-ins provide tooling for developing, configuring and deploying BRMS, SwitchYard and Fuse applications to Red Hat JBoss Fuse and Fuse Fabric containers, Apache ServiceMix, and Apache Karaf instances.</p>
-      </div>
-      <div class="ulist">
-      <ul>
-      <li>
-      <p>All of the Business Process and Rules Development plugins, plus…​</p>
-      </li>
-      <li>
-      <p><a href="https://tools.jboss.org/features/apachecamel.html">Fuse Apache Camel Tooling</a> - A graphical tool for integrating software components that works with Apache ServiceMix, Apache ActiveMQ, Apache Camel and the FuseSource distributions.</p>
-      </li>
-      <li>
-      <p><a href="https://tools.jboss.org/features/switchyard.html">SwitchYard</a> - A lightweight service delivery framework providing full lifecycle support for developing, deploying, and managing service-oriented applications.</p>
-      </li>
-      </ul>
-      </div>
-      </div>
-      <div class="sect2">
-      <h3 id="the-jboss-tools-website-features-tab"><a class="anchor" href="#the-jboss-tools-website-features-tab"></a>The JBoss Tools website features tab</h3>
-      <div class="paragraph">
-      <p>Don’t miss the <a href="https://tools.jboss.org/features">Features tab</a> for up to date information on your favorite Integration Stack components.</p>
-      </div>
-      </div>
-      </div>
-      </div>
-      <div class="sect1">
-      <h2 id="installation"><a class="anchor" href="#installation"></a>Installation</h2>
-      <div class="sectionbody">
-      <div class="paragraph">
-      <p>The easiest way to install the Integration Stack components is through the <a href="https://access.redhat.com/jbossnetwork/restricted/listSoftware.html?downloadType=distributions&amp;product=jbossdeveloperstudio&amp;version=6.3.0&amp;productChanged=yes">stand-alone installer</a>.  If you’re interested specifically in Fuse we have a new all-in-one installer <a href="https://developers.redhat.com/download-manager/content/origin/files/sha256/1d/1d84b961059a4cca700b3e1bef32c7e0544bae4f0d162f20b196509a79ae52ca/devstudio-integration-stack-10.1.0-fuse-installer-runtime.jar">JBoss Fuse Tooling + JBoss Fuse/Karaf runtime</a>.</p>
-      </div>
-      <div class="paragraph">
-      <p>For a complete set of Integration Stack installation instructions, see <a href="https://access.redhat.com/documentation/en/red-hat-jboss-developer-studio-integration-stack/10.0/paged/installation-guide/">Integration Stack Installation Instructions</a></p>
-      </div>
-      <div class="paragraph">
-      <p><em>Try it - you’ll like it!</em></p>
-      </div>
-      <div class="paragraph">
-      <p>Paul Leacu.</p>
-      </div>
-      </div>
-      </div></div>
-    ]]></summary>
-	<content type="html">&lt;html&gt;&lt;body&gt;&lt;div&gt;&lt;div&gt;
-      &lt;div&gt;
-      &lt;div&gt;
-      &lt;p&gt;&lt;strong&gt;Try our complete Eclipse-Neon capable, Devstudio 10.2.0 compatible integration tooling.&lt;/strong&gt;&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div&gt;
-      &lt;div&gt;
-      &lt;img src="https://tools.jboss.org/blog/images/jbosstools-jbdevstudio-blog-header.png" alt="jbosstools jbdevstudio blog header"&gt;&lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div&gt;
-      &lt;p&gt;&lt;strong&gt;JBoss Tools Integration Stack 4.4.1.Final / JBoss Developer Studio Integration Stack 10.1.0.GA&lt;/strong&gt;&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div&gt;
-      &lt;table&gt;&lt;tr&gt;&lt;td&gt;
-      &lt;i title="Note"&gt;&lt;/i&gt;
-      &lt;/td&gt;
-      &lt;td&gt;
-      All of the Integration Stack components have been verified to work with the same dependencies as JBoss Tools 4.4 and Developer Studio 10.
-      &lt;/td&gt;
-      &lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div&gt;
-      &lt;h2&gt;&lt;a href="#what-s-new-for-this-release" target="_blank"&gt;&lt;/a&gt;What&amp;rsquo;s new for this release?&lt;/h2&gt;
-      &lt;div&gt;
-      &lt;div&gt;
-      &lt;p&gt;Fuse Tooling is providing support for FIS 2.0 projects based on the fabric8-maven-plugin workflow. FIS 2.0 spring-boot based projects can be debugged locally and deployed on an OpenShift instance.  Also - this release features the newest production 11.0.1.Final Teiid Designer.  There are no more early access bits for Neon!&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div&gt;
-      &lt;h3&gt;&lt;a href="#released-tooling-highlights" target="_blank"&gt;&lt;/a&gt;Released Tooling Highlights&lt;/h3&gt;
-      &lt;div&gt;
-      &lt;h4&gt;&lt;a href="#jboss-fuse-development-highlights" target="_blank"&gt;&lt;/a&gt;JBoss Fuse Development Highlights&lt;/h4&gt;
-      &lt;div&gt;
-      &lt;h5&gt;&lt;a href="#fuse-tooling-highlights" target="_blank"&gt;&lt;/a&gt;Fuse Tooling Highlights&lt;/h5&gt;
-      &lt;div&gt;
-      &lt;p&gt;See the &lt;a href="https://access.redhat.com/documentation/en-us/red_hat_jboss_developer_studio_integration_stack/10.1/html/10.1.0.ga_release_notes_and_known_issues/resolved_issues#fuse_tooling_9_1_0_final" target="_blank"&gt;Fuse Tooling 9.1.0.Final Resolved Issues Section&lt;/a&gt; of the Integration Stack 10.1.0.GA release notes.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div&gt;
-      &lt;h5&gt;&lt;a href="#switchyard-highlights" target="_blank"&gt;&lt;/a&gt;SwitchYard Highlights&lt;/h5&gt;
-      &lt;div&gt;
-      &lt;p&gt;See the &lt;a href="https://access.redhat.com/documentation/en-us/red_hat_jboss_developer_studio_integration_stack/10.1/html/10.1.0.ga_release_notes_and_known_issues/resolved_issues#switchyard_2_3_0_final_2" target="_blank"&gt;SwitchYard 2.3.0.Final Resolved Issues Section&lt;/a&gt; of the Integration Stack 10.1.0.GA release notes.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div&gt;
-      &lt;h4&gt;&lt;a href="#jboss-business-process-and-rules-development" target="_blank"&gt;&lt;/a&gt;JBoss Business Process and Rules Development&lt;/h4&gt;
-      &lt;div&gt;
-      &lt;h5&gt;&lt;a href="#bpmn2-modeler-known-issues" target="_blank"&gt;&lt;/a&gt;BPMN2 Modeler Known Issues&lt;/h5&gt;
-      &lt;div&gt;
-      &lt;p&gt;See the &lt;a href="https://access.redhat.com/documentation/en-us/red_hat_jboss_developer_studio_integration_stack/10.1/html/10.1.0.ga_release_notes_and_known_issues/known_issues#bpmn2_1_3_2_final_1_3_1_final" target="_blank"&gt;BPMN2 1.3.2.Final Known Issues Section&lt;/a&gt; of the Integration Stack 10.1.0.GA release notes.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div&gt;
-      &lt;h5&gt;&lt;a href="#drools-jbpm6-highlights" target="_blank"&gt;&lt;/a&gt;Drools/jBPM6 Highlights&lt;/h5&gt;
-      &lt;div&gt;
-      &lt;p&gt;See the &lt;a href="https://access.redhat.com/documentation/en-us/red_hat_jboss_developer_studio_integration_stack/10.1/html/10.1.0.ga_release_notes_and_known_issues/known_issues#drools_6_5_1_final" target="_blank"&gt;Drools 6.5.1.Final Known Issues Section&lt;/a&gt;&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div&gt;
-      &lt;h4&gt;&lt;a href="#data-virtualization-highlights" target="_blank"&gt;&lt;/a&gt;Data Virtualization Highlights&lt;/h4&gt;
-      &lt;div&gt;
-      &lt;h5&gt;&lt;a href="#teiid-designer-highlights" target="_blank"&gt;&lt;/a&gt;Teiid Designer Highlights&lt;/h5&gt;
-      &lt;div&gt;
-      &lt;p&gt;See the &lt;a href="https://access.redhat.com/documentation/en-us/red_hat_jboss_developer_studio_integration_stack/10.1/html/10.1.0.ga_release_notes_and_known_issues/resolved_issues#teiid_designer_11_0_1_final_2" target="_blank"&gt;Teiid Designer 11.0.1.Final Resolved Issues Section&lt;/a&gt; of the Integration Stack 10.1.0.GA release notes.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div&gt;
-      &lt;h2&gt;&lt;a href="#what-s-an-integration-stack" target="_blank"&gt;&lt;/a&gt;What&amp;rsquo;s an Integration Stack?&lt;/h2&gt;
-      &lt;div&gt;
-      &lt;div&gt;
-      &lt;p&gt;Red Hat JBoss Developer Studio Integration Stack is a set of Eclipse-based development tools. It further enhances the IDE functionality provided by JBoss Developer Studio, with plug-ins specifically for use when developing for other Red Hat JBoss products.  It&amp;rsquo;s where the Fuse Tooling, DataVirt Tooling and BRMS tooling is aggregated.  The following frameworks are supported:&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div&gt;
-      &lt;h3&gt;&lt;a href="#jboss-fuse-development" target="_blank"&gt;&lt;/a&gt;JBoss Fuse Development&lt;/h3&gt;
-      &lt;div&gt;
-      &lt;ul&gt;&lt;li&gt;
-      &lt;p&gt;&lt;a href="https://tools.jboss.org/features/apachecamel.html" target="_blank"&gt;Fuse Tooling&lt;/a&gt; - JBoss Fuse Development provides tooling for Red Hat JBoss Fuse.  It features the latest versions of the Fuse Data Transformation tooling, Fuse Integration Services support, SwitchYard and access to the Fuse SAP Tool Suite.  Read more about &lt;a href="https://www.openshift.com/container-platform/middleware-services.html" target="_blank"&gt;Microservices Solutions for Integration&lt;/a&gt;&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-      &lt;p&gt;&lt;a href="https://tools.jboss.org/features/switchyard.html" target="_blank"&gt;SwitchYard&lt;/a&gt; - A lightweight service delivery framework providing full lifecycle support for developing, deploying, and managing service-oriented applications.&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;/ul&gt;&lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div&gt;
-      &lt;h3&gt;&lt;a href="#jboss-business-process-and-rules-development-2" target="_blank"&gt;&lt;/a&gt;JBoss Business Process and Rules Development&lt;/h3&gt;
-      &lt;div&gt;
-      &lt;p&gt;JBoss Business Process and Rules Development plug-ins provide design, debug and testing tooling for developing business processes for Red Hat JBoss BRMS and Red Hat JBoss BPM Suite.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div&gt;
-      &lt;ul&gt;&lt;li&gt;
-      &lt;p&gt;&lt;a href="https://tools.jboss.org/features/bpel.html" target="_blank"&gt;BPEL Designer&lt;/a&gt; - Orchestrating your business processes.&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-      &lt;p&gt;&lt;a href="https://tools.jboss.org/features/bpmn2.html" target="_blank"&gt;BPMN2 Modeler&lt;/a&gt; - A graphical modeling tool which allows creation and editing of Business Process Modeling Notation diagrams using graphiti.&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-      &lt;p&gt;&lt;a href="https://tools.jboss.org/features/drools.html" target="_blank"&gt;Drools&lt;/a&gt; - A Business Logic integration Platform which provides a unified and integrated platform for Rules, Workflow and Event Processing including KIE.&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-      &lt;p&gt;&lt;a href="https://tools.jboss.org/features/jbpm.html" target="_blank"&gt;jBPM6&lt;/a&gt; - A flexible Business Process Management (BPM) suite.&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;/ul&gt;&lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div&gt;
-      &lt;h3&gt;&lt;a href="#jboss-data-virtualization-development" target="_blank"&gt;&lt;/a&gt;JBoss Data Virtualization Development&lt;/h3&gt;
-      &lt;div&gt;
-      &lt;p&gt;JBoss Data Virtualization Development plug-ins provide a graphical interface to manage various aspects of Red Hat JBoss Data Virtualization instances, including the ability to design virtual databases and interact with associated governance repositories.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div&gt;
-      &lt;ul&gt;&lt;li&gt;
-      &lt;p&gt;&lt;a href="https://tools.jboss.org/features/teiiddesigner.html" target="_blank"&gt;Teiid Designer&lt;/a&gt; - A visual tool that enables rapid, model-driven definition, integration, management and testing of data services without programming using the Teiid runtime framework.&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;/ul&gt;&lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div&gt;
-      &lt;h3&gt;&lt;a href="#jboss-integration-and-soa-development" target="_blank"&gt;&lt;/a&gt;JBoss Integration and SOA Development&lt;/h3&gt;
-      &lt;div&gt;
-      &lt;p&gt;JBoss Integration and SOA Development plug-ins provide tooling for developing, configuring and deploying BRMS, SwitchYard and Fuse applications to Red Hat JBoss Fuse and Fuse Fabric containers, Apache ServiceMix, and Apache Karaf instances.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div&gt;
-      &lt;ul&gt;&lt;li&gt;
-      &lt;p&gt;All of the Business Process and Rules Development plugins, plus&amp;hellip;&amp;#8203;&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-      &lt;p&gt;&lt;a href="https://tools.jboss.org/features/apachecamel.html" target="_blank"&gt;Fuse Apache Camel Tooling&lt;/a&gt; - A graphical tool for integrating software components that works with Apache ServiceMix, Apache ActiveMQ, Apache Camel and the FuseSource distributions.&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-      &lt;p&gt;&lt;a href="https://tools.jboss.org/features/switchyard.html" target="_blank"&gt;SwitchYard&lt;/a&gt; - A lightweight service delivery framework providing full lifecycle support for developing, deploying, and managing service-oriented applications.&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;/ul&gt;&lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div&gt;
-      &lt;h3&gt;&lt;a href="#the-jboss-tools-website-features-tab" target="_blank"&gt;&lt;/a&gt;The JBoss Tools website features tab&lt;/h3&gt;
-      &lt;div&gt;
-      &lt;p&gt;Don&amp;rsquo;t miss the &lt;a href="https://tools.jboss.org/features" target="_blank"&gt;Features tab&lt;/a&gt; for up to date information on your favorite Integration Stack components.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div&gt;
-      &lt;h2&gt;&lt;a href="#installation" target="_blank"&gt;&lt;/a&gt;Installation&lt;/h2&gt;
-      &lt;div&gt;
-      &lt;div&gt;
-      &lt;p&gt;The easiest way to install the Integration Stack components is through the &lt;a href="https://access.redhat.com/jbossnetwork/restricted/listSoftware.html?downloadType=distributions&amp;amp;product=jbossdeveloperstudio&amp;amp;version=6.3.0&amp;amp;productChanged=yes" target="_blank"&gt;stand-alone installer&lt;/a&gt;.  If you&amp;rsquo;re interested specifically in Fuse we have a new all-in-one installer &lt;a href="https://developers.redhat.com/download-manager/content/origin/files/sha256/1d/1d84b961059a4cca700b3e1bef32c7e0544bae4f0d162f20b196509a79ae52ca/devstudio-integration-stack-10.1.0-fuse-installer-runtime.jar" target="_blank"&gt;JBoss Fuse Tooling + JBoss Fuse/Karaf runtime&lt;/a&gt;.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div&gt;
-      &lt;p&gt;For a complete set of Integration Stack installation instructions, see &lt;a href="https://access.redhat.com/documentation/en/red-hat-jboss-developer-studio-integration-stack/10.0/paged/installation-guide/" target="_blank"&gt;Integration Stack Installation Instructions&lt;/a&gt;&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div&gt;
-      &lt;p&gt;&lt;em&gt;Try it - you&amp;rsquo;ll like it!&lt;/em&gt;&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div&gt;
-      &lt;p&gt;Paul Leacu.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;/div&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;
-&lt;img src="http://feeds.feedburner.com/~r/jbossbuzz/~4/lq371H2MJfI" height="1" width="1" alt=""/&gt;</content>
-	<updated>2017-02-22T14:22:13+00:00</updated>
-	<author><name>pleacu</name></author>
-	<source>
-		<link rel="self" href="http://tools.jboss.org/blog/" />
-		<title>JBoss Tools</title></source>
-
-	<category term="release" />
-
-	<category term="jbosstools" />
-
-	<category term="devstudio" />
-
-	<category term="jbosscentral" />
-
-
-<feedburner:origLink>https://tools.jboss.org/blog/integration-stack-4.4.1.Final.html</feedburner:origLink></entry>
 
 
 </feed><!-- vim:ft=xml
