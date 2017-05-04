@@ -1,0 +1,17 @@
+package br.com.fiap.view;
+
+import javax.persistence.EntityManager;
+
+import br.com.fiap.dao.ContaDAO;
+import br.com.fiap.dao.impl.ContaDAOImpl;
+import br.com.fiap.singleton.EntityManagerFactorySingleton;
+
+public class Teste {
+
+	public static void main(String[] args) {
+		EntityManager em = EntityManagerFactorySingleton.getInstance().createEntityManager();
+		ContaDAO dao = new ContaDAOImpl(em);
+		
+	}
+
+}

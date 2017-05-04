@@ -1,0 +1,13 @@
+package br.com.fiap.entity;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "T_CORRENTE")
+public class Corrente extends Conta {
+	
+	@Column(name = "VL_TARIFA", nullable = false)
+	private float valorTarifa;
+}
