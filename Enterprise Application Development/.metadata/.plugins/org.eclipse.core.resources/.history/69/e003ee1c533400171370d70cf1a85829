@@ -1,0 +1,15 @@
+package br.com.fiap.socket;
+
+import java.net.ServerSocket;
+import java.net.Socket;
+
+public class Server {
+
+	public static void main(String[] args) throws Exception {
+
+		ServerSocket server = new ServerSocket(1234);
+		System.out.println("Aguardando conexao...");
+		Socket socket = server.accept();
+	}
+
+}

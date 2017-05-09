@@ -1,0 +1,12 @@
+package br.com.fiap.view;
+
+import java.io.FileInputStream;
+
+public class Desserializacao {
+
+	public static void main(String[] args) throws Exception {
+
+		FileInputStream fileStream = new FileInputStream("arquivo.txt");
+	}
+
+}

@@ -1,22 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.lang.Integer"/>
-<fullyQualifiedTypeName name="java.awt.Window.Type"/>
-<fullyQualifiedTypeName name="javax.persistence.TypedQuery"/>
-<fullyQualifiedTypeName name="br.com.fiap.entity.Pacote"/>
-<fullyQualifiedTypeName name="javax.persistence.NamedQueries"/>
-<fullyQualifiedTypeName name="javax.persistence.NamedQuery"/>
-<fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
-<fullyQualifiedTypeName name="br.com.fiap.entity.Reserva"/>
-<fullyQualifiedTypeName name="br.com.fiap.dao.ReservaDAO"/>
-<fullyQualifiedTypeName name="br.com.fiap.dao.impl.ReservaDAOImpl"/>
-<fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="br.com.fiap.entity.ItemPedidoPK"/>
-<fullyQualifiedTypeName name="br.com.fiap.dao.ItemPedidoDAO"/>
-<fullyQualifiedTypeName name="br.com.fiap.dao.impl.ItemPedidoImpl"/>
-<fullyQualifiedTypeName name="br.com.fiap.entity.Pedido"/>
-<fullyQualifiedTypeName name="br.com.fiap.entity.Produto"/>
-<fullyQualifiedTypeName name="br.com.fiap.entity.ItemPedido"/>
 <fullyQualifiedTypeName name="javax.persistence.Temporal"/>
 <fullyQualifiedTypeName name="br.com.fiap.entity.DependentePK"/>
 <fullyQualifiedTypeName name="br.com.fiap.dao.DependenteDAO"/>
@@ -33,7 +16,6 @@
 <fullyQualifiedTypeName name="br.com.fiap.entity.PessoaJuridica"/>
 <fullyQualifiedTypeName name="javax.persistence.SequenceGenerator"/>
 <fullyQualifiedTypeName name="javax.persistence.SecondaryTable"/>
-<fullyQualifiedTypeName name="java.io.Serializable"/>
 <fullyQualifiedTypeName name="javax.persistence.IdClass"/>
 <fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
@@ -60,4 +42,22 @@
 <fullyQualifiedTypeName name="br.com.fiap.entity.Agencia"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="br.com.fiap.exception.CommitException"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+<fullyQualifiedTypeName name="java.io.FileInputStream"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="java.net.ServerSocket"/>
+<fullyQualifiedTypeName name="java.io.ObjectInputStream"/>
+<fullyQualifiedTypeName name="java.net.Socket"/>
+<fullyQualifiedTypeName name="java.io.OutputStream"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="java.io.ObjectOutputStream"/>
+<fullyQualifiedTypeName name="br.com.fiap.bean.Aluno"/>
+<fullyQualifiedTypeName name="java.rmi.RemoteException"/>
+<fullyQualifiedTypeName name="java.rmi.server.UnicastRemoteObject"/>
+<fullyQualifiedTypeName name="java.rmi.registry.Registry"/>
+<fullyQualifiedTypeName name="java.rmi.registry.LocateRegistry"/>
+<fullyQualifiedTypeName name="br.com.fiap.bo.impl.CotacaoBOImpl"/>
+<fullyQualifiedTypeName name="br.com.fiap.bo.CotacaoBO"/>
+<fullyQualifiedTypeName name="java.rmi.Naming"/>
 </qualifiedTypeNameHistroy>

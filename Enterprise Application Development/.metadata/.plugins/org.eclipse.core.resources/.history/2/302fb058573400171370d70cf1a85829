@@ -1,0 +1,14 @@
+package br.com.fiap.bo.impl;
+
+import java.rmi.RemoteException;
+
+import br.com.fiap.bo.CotacaoBO;
+
+public class CotacaoBOImpl implements CotacaoBO {
+
+	@Override
+	public double converterBitCoinParaReal(double bitcoin) throws RemoteException {
+		return bitcoin*5627;
+	}
+
+}
