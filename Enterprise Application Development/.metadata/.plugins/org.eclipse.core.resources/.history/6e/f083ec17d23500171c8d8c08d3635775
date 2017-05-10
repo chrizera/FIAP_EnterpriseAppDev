@@ -1,0 +1,13 @@
+package br.com.fiap.bo.impl;
+
+import br.com.fiap.bo.CursoBO;
+
+public class CursoBOImpl implements CursoBO {
+
+	@Override
+	public float calcularMedia(float nac, float ps, float am, float enade) {
+
+		return nac*0.2 + ps*0.5 + 0.3*(am*0.4 + enade*0.6);
+	}
+
+}
