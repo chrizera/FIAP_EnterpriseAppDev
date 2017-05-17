@@ -1,8 +1,0 @@
-package br.com.fiap.bo;
-
-import java.rmi.Remote;
-
-public interface CotacaoBO extends Remote {
-	double converterBitCoinParaReal(double bitcoin);
-	
-}

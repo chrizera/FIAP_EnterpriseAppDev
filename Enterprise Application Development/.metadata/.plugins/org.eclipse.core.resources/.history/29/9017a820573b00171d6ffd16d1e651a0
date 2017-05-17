@@ -1,0 +1,38 @@
+package br.com.fiap.entity;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Lob;
+import javax.persistence.SequenceGenerator;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "T_MEDICO")
+@SequenceGenerator(name = "seqMedico", sequenceName = "SQ_T_MEDICO", allocationSize = 1)
+public class Medica {
+
+	@Id
+	@Column(name = "CD_MEDICO")
+	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "seqMedico")
+	private int codigo;
+	
+	@Column(name = "NM_MEDICO", nullable = false, length = 100)
+	private String nome;
+	
+	@Lob
+	@Column(name = "FL_FOTO")
+	private byte[] foto;
+
+	public int getCodigo() {
+		return codigo;
+	}
+
+	public void setCodigo(int codigo) {
+		this.codigo = codigo;
+	}
+	
+	
+}

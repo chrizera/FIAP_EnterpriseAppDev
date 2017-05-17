@@ -1,0 +1,10 @@
+package br.com.fiap.entity;
+
+import javax.persistence.Entity;
+import javax.persistence.SequenceGenerator;
+
+@Entity
+@SequenceGenerator(allocationSize = 1, name = "seqPaciente", sequenceName = "SQ_T_PACIENTE")
+public class Paciente {
+
+}

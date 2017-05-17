@@ -1,0 +1,28 @@
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2017-05-17 19:35:43.819
+!MESSAGE The server "WildFly 10.x" requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre1.8.0_121 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2017-05-17 19:35:45.495
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2017-05-17 19:35:58.013
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2017-05-17 19:49:45.798
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2017-05-17 19:50:05.238
+!MESSAGE The server "WildFly 10.x" requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files\Java\jre1.8.0_121 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2017-05-17 19:50:06.319
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2017-05-17 19:50:08.632
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2017-05-17 19:50:08.632
+!MESSAGE Module 17-EJB on WildFly 10.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2017-05-17 20:47:37.256
+!MESSAGE Server processes have been terminated.
